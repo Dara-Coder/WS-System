@@ -175,6 +175,15 @@ let HomePage = () => {
           <button type="button" className={style.btn_course}>Take a Course</button>
         </div>
       </div>
+      <div className={style.certified_teacher}>
+        <div className={style.certified_teacher_description}>
+          <h1 className="text-center">Certified Teachers</h1>
+          <p className="text-center fs-5 p-3">
+            Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.
+          </p>
+        </div>
+      </div>
+      <div className={style.certified_teacher_contain_card}></div>
     </>
   );
 }

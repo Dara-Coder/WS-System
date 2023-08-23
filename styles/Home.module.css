@@ -218,6 +218,17 @@
   font-size:1.2rem;
 }
 
+.certified_teacher{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.certified_teacher_description{
+  padding:30px;
+  width:70%;
+}
+
 @media screen and (max-width: 800px){
   .container_card_info{
     display: grid;
